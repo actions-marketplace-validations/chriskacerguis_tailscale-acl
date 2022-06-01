@@ -13,7 +13,7 @@ GitHub Action to update Tailscale ACL via the API
 
 ## `aclfile`
 
-**Required** The name of your ACL file Default `"acl.json"`.
+The name of your ACL file Default `"acl.json"`.
 
 ## Example usage
 
