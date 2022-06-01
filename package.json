@@ -1,0 +1,26 @@
+{
+  "name": "tailscale-acl",
+  "version": "1.0.0",
+  "description": "GitHub Action to update Tailscale ACL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js --license licenses.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriskacerguis/tailscale-acl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriskacerguis/tailscale-acl/issues"
+  },
+  "homepage": "https://github.com/chriskacerguis/tailscale-acl#readme",
+  "dependencies": {
+    "@actions/core": "^1.8.2",
+    "axios": "^0.27.2",
+    "fs": "^0.0.1-security"
+  }
+}

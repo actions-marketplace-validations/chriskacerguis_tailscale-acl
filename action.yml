@@ -1,0 +1,21 @@
+name: 'Tailscale ACL'
+description: 'GitHub Action to update Tailscale ACL'
+inputs:
+  apikey:
+    description: 'tailscale api key'
+    required: true
+    default: 'none'
+  tailnet:
+    description: 'tailscale network name'
+    required: true
+    default: 'none.com'
+  aclfile:
+    description: 'tailscale acl filename'
+    required: false
+    default: 'acl.json'
+outputs:
+  error:
+    description: 'the error message'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
